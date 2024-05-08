@@ -7,7 +7,6 @@ const server = http.createServer((req, res) => {
 
     res.writeHead(200, {'Content-Type': 'application/json'})
 
-    // F
     // Generating random delay
     const randomTime = Math.floor(Math.random() * (5000 - 2000 + 1) + 2000)
     setTimeout(() =>{
